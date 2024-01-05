@@ -1,0 +1,20 @@
+name = "libssh_jll"
+uuid = "a8d4f100-aa25-5708-be18-96e0805c2c9d"
+version = "0.10.6+0"
+
+[deps]
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+Kerberos_krb5_jll = "b39eb1a6-c29a-53d7-8c32-632cd16f18da"
+OpenSSL_jll = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
+Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+
+[compat]
+JLLWrappers = "1.2.0"
+julia = "1.6"
+Kerberos_krb5_jll = "1.19.3"
+OpenSSL_jll = "3.0.8"
+Zlib_jll = "1.2.12"
+Libdl = "1"
+Artifacts = "1"
