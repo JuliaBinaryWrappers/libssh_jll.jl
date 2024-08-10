@@ -1,6 +1,6 @@
 name = "libssh_jll"
 uuid = "a8d4f100-aa25-5708-be18-96e0805c2c9d"
-version = "0.10.6+0"
+version = "0.11.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -15,6 +15,6 @@ JLLWrappers = "1.2.0"
 julia = "1.6"
 Kerberos_krb5_jll = "1.19.3"
 OpenSSL_jll = "3.0.8"
-Zlib_jll = "1.2.12"
+Zlib_jll = "1.2.13"
 Libdl = "1"
 Artifacts = "1"
