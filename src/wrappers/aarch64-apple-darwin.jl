@@ -16,7 +16,7 @@ function __init__()
 
     JLLWrappers.@init_library_product(
         libssh,
-        "lib/libssh.4.10.0.dylib",
+        "lib/libssh.4.10.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
