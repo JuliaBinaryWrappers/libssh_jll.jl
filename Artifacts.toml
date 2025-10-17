@@ -1,143 +1,160 @@
 [[libssh]]
 arch = "aarch64"
-git-tree-sha1 = "e0cd5a77b916daf77dd8a8224a4fb391796d1a6b"
+git-tree-sha1 = "e5d9a7af7ebcf1e4b932f241801514ce3fe55976"
 os = "macos"
 
     [[libssh.download]]
-    sha256 = "bc10f4ce83ee998f66fb0b927c3cff37e72e2495b2947b93018f99b70152574b"
-    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.1+0/libssh.v0.11.1.aarch64-apple-darwin.tar.gz"
+    sha256 = "1b5da60f57a1cf9a5180575af5cce63f1d588049b74d0016da0b40fe03c9d587"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.aarch64-apple-darwin.tar.gz"
 [[libssh]]
 arch = "aarch64"
-git-tree-sha1 = "ffc0a06e387ef1f7c610c4e98d820abc1a80d1a8"
+git-tree-sha1 = "518f947ecec3feb2bb219935736a71e1944e8215"
 libc = "glibc"
 os = "linux"
 
     [[libssh.download]]
-    sha256 = "d99c3a62f739d80a8e2eb0f21e0e39104a5827fb409cb5d454bc81d67585b145"
-    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.1+0/libssh.v0.11.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "9382095e23dd00619a819c9cc718085d0aae7b74a4533c825744c8bb25c6162e"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.aarch64-linux-gnu.tar.gz"
 [[libssh]]
 arch = "aarch64"
-git-tree-sha1 = "78eacb57131e90dad1efbdbaa620eee1170188db"
+git-tree-sha1 = "0b380b131e73c91a29daec19c97a7bbf98258b96"
 libc = "musl"
 os = "linux"
 
     [[libssh.download]]
-    sha256 = "27314e09e6d288fe29b4b267ef5150b9f37f1e4d1b88b4bad43b72c19e6a3f3b"
-    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.1+0/libssh.v0.11.1.aarch64-linux-musl.tar.gz"
+    sha256 = "a7f64aa566d7913bd403811e4a6ada68bdd802bd99969a02b187c6543321f6df"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.aarch64-linux-musl.tar.gz"
 [[libssh]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "c5b09c2fdf3b6a46ecd4d829ecc28b36e468255e"
-libc = "glibc"
-os = "linux"
-
-    [[libssh.download]]
-    sha256 = "2c2ecf6437de197023957292943456c6fe028a4ae7fb5d6a75652fb32c01e2ad"
-    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.1+0/libssh.v0.11.1.armv6l-linux-gnueabihf.tar.gz"
-[[libssh]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "3ed94a7536068e578b8f31d37ae476bfc11c1f2f"
-libc = "musl"
-os = "linux"
-
-    [[libssh.download]]
-    sha256 = "7c81bff7757e6cc04375d9d73d0f60006660813b94895dfee4c3b24e09e74804"
-    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.1+0/libssh.v0.11.1.armv6l-linux-musleabihf.tar.gz"
-[[libssh]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "9d728e012a7eac60d8befd65f51b5c0932567716"
-libc = "glibc"
-os = "linux"
-
-    [[libssh.download]]
-    sha256 = "f6d36305f6d8c6b270e1c64697704c81c65936ee73141b6c740fc7e89dda1ed4"
-    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.1+0/libssh.v0.11.1.armv7l-linux-gnueabihf.tar.gz"
-[[libssh]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "185e994b3645434aed122ed404d2eba97d5c41ce"
-libc = "musl"
-os = "linux"
-
-    [[libssh.download]]
-    sha256 = "d21859c1214d229dc74e40eedde21cfbcc2e629914b70d9669b52605dda347c3"
-    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.1+0/libssh.v0.11.1.armv7l-linux-musleabihf.tar.gz"
-[[libssh]]
-arch = "i686"
-git-tree-sha1 = "e69db27bdbe919fd5c64f2fd71192c6307266f00"
-libc = "glibc"
-os = "linux"
-
-    [[libssh.download]]
-    sha256 = "ecd752ca7771b1f0c22ecfe573bbeb9952305bd577140ceab3cb2f8d4bfb65d4"
-    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.1+0/libssh.v0.11.1.i686-linux-gnu.tar.gz"
-[[libssh]]
-arch = "i686"
-git-tree-sha1 = "c50be29b9c2438e22d7257353682683ac9a57d71"
-libc = "musl"
-os = "linux"
-
-    [[libssh.download]]
-    sha256 = "ea98280d61cd9991837eee6d231a2dd7fa980f0726268c77a86678850393103d"
-    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.1+0/libssh.v0.11.1.i686-linux-musl.tar.gz"
-[[libssh]]
-arch = "i686"
-git-tree-sha1 = "1fb350e929453fbf7437c1c99a113d67904f382c"
-os = "windows"
-
-    [[libssh.download]]
-    sha256 = "cc82ab8242a659e13cf86835ddedafab0d65f31b82655f2f5185e3c7a838d43e"
-    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.1+0/libssh.v0.11.1.i686-w64-mingw32.tar.gz"
-[[libssh]]
-arch = "powerpc64le"
-git-tree-sha1 = "2648d3ad0bb9545f212bad645ce3707330462076"
-libc = "glibc"
-os = "linux"
-
-    [[libssh.download]]
-    sha256 = "29eb5466b5bca53ce22f4ee52cfe7fee863b53d9ea53ebcc3ace5b4b4f3c3f12"
-    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.1+0/libssh.v0.11.1.powerpc64le-linux-gnu.tar.gz"
-[[libssh]]
-arch = "x86_64"
-git-tree-sha1 = "305946707b42f3d443cea5b6ac227b8896378586"
-os = "macos"
-
-    [[libssh.download]]
-    sha256 = "35b2dd3be0b669c668e54af1a49a79db7766917d14197d60cb21c550e6ad0d04"
-    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.1+0/libssh.v0.11.1.x86_64-apple-darwin.tar.gz"
-[[libssh]]
-arch = "x86_64"
-git-tree-sha1 = "bf6b2e8a8f015981a4350cac96bfb2ef9f96aabf"
-libc = "glibc"
-os = "linux"
-
-    [[libssh.download]]
-    sha256 = "d910312dd51a6a5fa433b03d8cfe13e19fded6371d2ff5fd003332b202bd0a58"
-    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.1+0/libssh.v0.11.1.x86_64-linux-gnu.tar.gz"
-[[libssh]]
-arch = "x86_64"
-git-tree-sha1 = "9f0c03b8122a869930ac69ac72b4f96aae715206"
-libc = "musl"
-os = "linux"
-
-    [[libssh.download]]
-    sha256 = "11233067437c25d50fdb47e79702b7147b4ab98bbf955eb3c3d1dc822ea889bf"
-    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.1+0/libssh.v0.11.1.x86_64-linux-musl.tar.gz"
-[[libssh]]
-arch = "x86_64"
-git-tree-sha1 = "0c0071ad1885e5f22bfb4dac28362195a4119375"
+arch = "aarch64"
+git-tree-sha1 = "77f08de8da44d381cb211cca604f0e09353b24eb"
 os = "freebsd"
 
     [[libssh.download]]
-    sha256 = "ffc77acb9377548387eee5315d05fabb9c246defb532db6d5af7d74c27822975"
-    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.1+0/libssh.v0.11.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "bcc1f1f63e1784f80b02418c3ff196ac0ccf0bcf700162d816da58e9b53eeeb9"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.aarch64-unknown-freebsd.tar.gz"
 [[libssh]]
-arch = "x86_64"
-git-tree-sha1 = "09861c408c81e67a9277aeded2af0fe1128a8fe9"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "f60c8f5d4491a2c9b855b63807c2404ad9eb85e1"
+libc = "glibc"
+os = "linux"
+
+    [[libssh.download]]
+    sha256 = "6d4f548cada2ac3c858eedafc76d0093fab45c536eb3b20dc4effd028c807f2c"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.armv6l-linux-gnueabihf.tar.gz"
+[[libssh]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "f4915f5cf08202912d0a69057d01b83ceee51a5b"
+libc = "musl"
+os = "linux"
+
+    [[libssh.download]]
+    sha256 = "3889259735abc02953f2f6c030ef5c30fe40ce0cf045f507ad0c26ad006efbae"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.armv6l-linux-musleabihf.tar.gz"
+[[libssh]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "8dad1ec5ed17707d56468088f8f3b8555b93485a"
+libc = "glibc"
+os = "linux"
+
+    [[libssh.download]]
+    sha256 = "402caac088edd4d13da1ebd95373078ea0dca79ba15847170d93c695e89ec73c"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.armv7l-linux-gnueabihf.tar.gz"
+[[libssh]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "9561f8aa59a63bb156575fb8701275b5a5033ba1"
+libc = "musl"
+os = "linux"
+
+    [[libssh.download]]
+    sha256 = "6c90e7c5a92339d934801afa70a1c4c4f36b73a980b84bc09f13b098b9a9f199"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.armv7l-linux-musleabihf.tar.gz"
+[[libssh]]
+arch = "i686"
+git-tree-sha1 = "8f9d30984234bf8b9d86d6bfe7f3f6df85e81270"
+libc = "glibc"
+os = "linux"
+
+    [[libssh.download]]
+    sha256 = "bbfe3c1aab4d2ad7639d9289f101a2e774fa2cb4815938706e55d70a04bf7241"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.i686-linux-gnu.tar.gz"
+[[libssh]]
+arch = "i686"
+git-tree-sha1 = "89f0447a5dc4bdb0628f85275e810ce0cf7adfac"
+libc = "musl"
+os = "linux"
+
+    [[libssh.download]]
+    sha256 = "7e43daf29ccc9587eebb8f06d091361c997267dfea7e68c695ee9a096c82c8aa"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.i686-linux-musl.tar.gz"
+[[libssh]]
+arch = "i686"
+git-tree-sha1 = "10eaaa2395427f77fd9a75a001c83a488825d353"
 os = "windows"
 
     [[libssh.download]]
-    sha256 = "fb64a9332914cf92beefab7728a0b1d2780c47abfafc562fe6c9a7e8f32ac781"
-    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.1+0/libssh.v0.11.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "3c8ffd9207025546a13817755a92ea876c5e6faae95d6b87b3c02d60a21d66cc"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.i686-w64-mingw32.tar.gz"
+[[libssh]]
+arch = "powerpc64le"
+git-tree-sha1 = "0770f07653ed6a4b96f4e7b0e148691992d0322e"
+libc = "glibc"
+os = "linux"
+
+    [[libssh.download]]
+    sha256 = "8b085a904c764b12c6ab47fcee96d5736bcd7c36fafabf8db451bec2b246dd1b"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.powerpc64le-linux-gnu.tar.gz"
+[[libssh]]
+arch = "riscv64"
+git-tree-sha1 = "6c0dbf5e3e23fd73903503025dfe178a7632077b"
+libc = "glibc"
+os = "linux"
+
+    [[libssh.download]]
+    sha256 = "b7a0978b23d3eef61243e1c111316b8ad04b7a00693dba78e9c56d9da78d1b03"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.riscv64-linux-gnu.tar.gz"
+[[libssh]]
+arch = "x86_64"
+git-tree-sha1 = "03b7355860c74c40a2e93fd37bec0783448e200f"
+os = "macos"
+
+    [[libssh.download]]
+    sha256 = "cc81dea498f9bf639b00354ce855beb2f6da1c173620da592c6080245e55a85c"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.x86_64-apple-darwin.tar.gz"
+[[libssh]]
+arch = "x86_64"
+git-tree-sha1 = "d156a95a1775f34499a068430ecb1f075a62e3bd"
+libc = "glibc"
+os = "linux"
+
+    [[libssh.download]]
+    sha256 = "97a6ab75d525aec8620de2465bb947b35996dc8b92bef830a414ab002766f9eb"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.x86_64-linux-gnu.tar.gz"
+[[libssh]]
+arch = "x86_64"
+git-tree-sha1 = "4041a7f791629e3a3113796511efbe06a1ab7728"
+libc = "musl"
+os = "linux"
+
+    [[libssh.download]]
+    sha256 = "591d3a5f3b230fdf64360c73dde2091c309b1ceabd28e5bed84c9032ecd4030e"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.x86_64-linux-musl.tar.gz"
+[[libssh]]
+arch = "x86_64"
+git-tree-sha1 = "d9413303b989cb9fbb40dd92d138ee63338fe7f4"
+os = "freebsd"
+
+    [[libssh.download]]
+    sha256 = "3abd70dcd8cfeb656fa68bc8217b8ea36290260ac6644bffbb99c81d5d8158e0"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.x86_64-unknown-freebsd.tar.gz"
+[[libssh]]
+arch = "x86_64"
+git-tree-sha1 = "8e1797af2e326d3c4c9576345f67928c9c4a7b23"
+os = "windows"
+
+    [[libssh.download]]
+    sha256 = "5fe0d8b9d29ab7cb5949ec1b9e878c790588a66d63de0f1758ba76d153d75d0c"
+    url = "https://github.com/JuliaBinaryWrappers/libssh_jll.jl/releases/download/libssh-v0.11.3+0/libssh.v0.11.3.x86_64-w64-mingw32.tar.gz"
